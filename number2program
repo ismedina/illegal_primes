@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+from decoding import *
+from time import sleep
+
+a = int(input("Give me a number: "))
+print("Decoding into a program...")
+sleep(1)
+decode_number(a,filename_new = "program")
+print("Done! \nYour number is now saved in the file 'program'.")
